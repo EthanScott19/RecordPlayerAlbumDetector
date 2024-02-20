@@ -10,3 +10,7 @@ liveReading.py is where we take the input from our record player and figure out 
 # Future ideas 
 The main future idea I have with this project is to have the output on a little LCD screen and attach it to the record player. This is the reason why I decided to use a raspberry pi for the project. Also in the Fingerprint.py file you will see there is unused code involving the time of the peaks. This is because I would also like to digitize how far into the album you are to be displayed. The last thing I want to do is just expand my SQL database, as I didnt put every single vinyl I have in there. One note I have is that the program is accurate about 85% of the time for me. This is due to the methods I used to compare the hashes, since some albums have the same hash four times, whenever the sample happens to have that, the vinyl that has that hash gets four free points and it may lead to some inaccuracies.
 
+# Video Demonstration
+
+https://github.com/EthanScott19/RecordPlayerAlbumDetector/assets/153804762/4345eb29-9cc6-43d5-a162-24156d19bc2d
+
